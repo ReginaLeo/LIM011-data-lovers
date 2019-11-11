@@ -4,81 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Data Lovers</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
-
-    <nav  id="navBar">
-      <img class= "logo" src="https://seeklogo.net/wp-content/uploads/2016/07/pokemon-go-vector-logo.png" height= 150px width= 150px />
-      <div class="logoImg">
-        <ul><a href="index.html"><img src=""  class=""></a> </ul>
+   <ul class="navigation">
+      <aside class="logo"> 
+      <ul>
+        <img class="logo" src="https://seeklogo.net/wp-content/uploads/2016/07/pokemon-go-vector-logo.png" height=150px
+        width=170px />
+      </ul>
+    </aside> 
+     </div>
+        <li><a href="index.html" id="#home">H0ME</a></li>
+        <li><a href="index.html" id="#types-weaknesses">TIPOS Y DEBILIDADES</a></li>
+        <li><a href="index.html" id="">APARICIONES</a></li>
+        <li><a href="index.html" id="">EVOLUCIONES</a></li>
+    </ul>
+    <aside class="headerFilter">
+      <div class="filters">
+        <select class="filter-box" id="ingreso-type" class="select">
+          <option disabled selected value><strong>Tipos..</strong></option>
+          <option value="Water">Agua</option>
+          <option value="Electric">Eléctrico</option>
+          <option value="Ground">Tierra</option>
+          <option value="Fire">Fuego</option>
+          <option value="Ice">Hielo</option>
+          <option value="Rock">Roca</option>
+          <option value="Bug">Bicho</option>
+          <option value="Dragon">Dragon</option>
+          <option value="Flying">Volador</option>
+          <option value="Grass">Planta</option>
+          <option value="Normal">Normal</option>
+          <option value="Poison">Veneno</option>
+          <option value="Psychic">Psiquico</option>
+          <option value="Fighting">Lucha</option>
+          <option value="Ghost">Fantasma</option>
+        </select>
+        <select class="filter-box" id="ingreso-weaknesses" class="select">
+          <option disabled selected value><strong>Debilidades..</strong></option>
+          <option value="Water">Agua</option>
+          <option value="Ground">Tierra</option>
+          <option value="Fire">Fuego</option>
+          <option value="Fairy">Hada</option>
+          <option value="Ice">Hielo</option>
+          <option value="Rock">Roca</option>
+          <option value="Bug">Bicho</option>
+          <option value="Dragon">Dragon</option>
+          <option value="Flying">Volador</option>
+          <option value="Grass">Planta</option>
+          <option value="Normal">Normal</option>
+          <option value="Poison">Veneno</option>
+          <option value="Psychic">Psiquico</option>
+          <option value="Steel">Acero</option>
+          <option value="Fighting">Lucha</option>
+          <option value="Ghost">Fantasma</option>
+        </select>
+        <select class="filter-box" name="ordenados" id="tipos-orden" class="select">
+          <option disabled selected value>Ordenar por...</option>
+          <option value="id-ascendente"> 1-151 </option>
+          <option value="id-descendente"> 151-1 </option>
+          <option value="name-ascendente"> A-Z </option>
+          <option value="name-descendente"> Z-A</option>
+        </select>
       </div>
-
-      <div class="social-icons">
-        <div class="contact">
-          <a href="#all-Pokemons" id="navPoketDex">TIPOS Y DEBILIDADES</a>
-        </div>
-        <div class="contact">
-          <a href="#xxxxx" id="navPoketGo">INICIO</a>
-        </div>
-
-      </div>
-    </nav>
-      <div class="headerFilter">
-        <div class="filters">
-          <select class="filter-box" id="ingreso-type" class="select">
-            <option disabled selected value><strong>Tipos</strong></option>
-            <option value="Water">Agua</option>
-            <option value="Electric">Eléctrico</option>
-            <option value="Ground">Tierra</option>
-            <option value="Fire">Fuego</option>
-            <option value="Ice">Hielo</option>
-            <option value="Rock">Roca</option>
-            <option value="Bug">Bicho</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Flying">Volador</option>
-            <option value="Grass">Planta</option>
-            <option value="Normal">Normal</option>
-            <option value="Poison">Veneno</option>
-            <option value="Psychic">Psiquico</option>
-            <option value="Fighting">Lucha</option>
-            <option value="Ghost">Fantasma</option>
-          </select>
-          <select class="filter-box" id="ingreso-weaknesses" class="select">
-            <option disabled selected value><strong>Debilidades </strong></option>
-            <option value="Water">Agua</option>
-            <option value="Ground">Tierra</option>
-            <option value="Fire">Fuego</option>
-            <option value="Fairy">Hada</option>
-            <option value="Ice">Hielo</option>
-            <option value="Rock">Roca</option>
-            <option value="Bug">Bicho</option>
-            <option value="Dragon">Dragon</option>
-            <option value="Flying">Volador</option>
-            <option value="Grass">Planta</option>
-            <option value="Normal">Normal</option>
-            <option value="Poison">Veneno</option>
-            <option value="Psychic">Psiquico</option>
-            <option value="Steel">Acero</option>
-            <option value="Fighting">Lucha</option>
-            <option value="Ghost">Fantasma</option>
-          </select>
-          <select class="filter-box" name="ordenados" id="tipos-orden" class="select">
-            <option disabled selected value>Ordenar por...</option>
-            <!-- <option value="id-ascendente"> 1-151 </option>
-            <option value="id-descendente"> 151-1 </option> -->
-            <!-- <option value="name-ascendente"> A-Z </option> -->
-            <option value="name-descendente"> Z-A</option>
-          </select>
-        </div>
-      </div>
+    </aside>
   </header>
   <main>
-    <div class="caja-pokemones" id="all-pokemon" class="pokemon-cards"></div>
+    <div id= 'home' style= 'display:block'>
+    <img src="">
+    
+     </div>
+     <!-- <div id="pokeGallery"> -->
+    <div class="caja-pokemones" id="all-pokemon" ></div>
   </main>
   <script type="module" src="main.js"></script>
 </body>
@@ -94,4 +96,5 @@
     </div>
   </div>
 </footer>
+
 </html>

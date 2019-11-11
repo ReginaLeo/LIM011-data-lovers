@@ -1,16 +1,134 @@
+body{
+  font-family: 'Inconsolata', monospace;
+}
+
+@import "compass/css3";
+
+.navigation {
+  list-style: none;
+  margin: 0; 
+  
+  background: rgb(25, 214, 173);
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: darken(rgb(25, 214, 173), 2%);
+}
+
+/* Responsive para tablets */
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+/* Responsive para celulares */
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+.container {
+  position:relative;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  justify-content: space-between;
+  }
+
+.image{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.overlay{
+  position: absolute;
+  transition: all .5s ease;
+  opacity: 0;
+  background-color: #eee;
+  }
+
+.card{
+  padding: 0;
+  display: block;
+ }
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.text{
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20 px;
+}
+
+.overlayLeft {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: #00b1a0;
+  }
+
+.container:hover .overlayLeft{
+  width: 100%;
+
+}
 
 .logo{
+  align-items: flex-start;
   padding: 0px;
   margin: 0px;
+  
 }
-nav {
+
+.navigation {
     background-color: rgb(27, 236, 166);
     justify-content: space-between;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    position: relative;
   }
+  
  .contact a {
     display: inline;
     margin-right: 1.5rem;
@@ -48,25 +166,21 @@ nav {
     width: 50%;
   }
 
-.container-graphic{
-	display: flex;
-  justify-content: center;	
-  flex-wrap: wrap;
-}
 
 @media (min-width: 425px) and (max-width: 768px) {
     nav li a {
       color: black;
     }
 }
+
 .caja-pokemones{
-    min-height: 250px;
+    min-height: 1000px;
     margin: 0 auto;
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow:row wrap;
+    justify-content: space-around;
   }
   
 .headerFilter {
@@ -77,17 +191,20 @@ nav {
     z-index: 9999;
     width: 100%;
     margin: 0 auto;
-    position: fixed;
+    position: relative;
     justify-content: space-between;
     box-shadow: 0 2px 7.5px 0 rgba(51, 51, 51, 0.7);
+    font-family: 'Inconsolata', monospace;
   }
+
 .filters {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 2%;
     margin-right: 2%;
-  }
+     }
+
 .filter-box {
     background-color: white;
     border-radius: 30px;
@@ -102,7 +219,10 @@ nav {
     margin: 0 auto;
     width: 200px;
     margin: 2%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
   }
+
 footer {
     display: inline-flex;
     flex-wrap: wrap;
@@ -118,12 +238,13 @@ footer {
     width: 100%;
     box-sizing: border-box;
   }
-  .social-icons {
+.social-icons {
     display: inline-flex;
     padding-right: 2%;
     justify-content: right;
     align-content: flex-end;
   }
-  footer a {
+
+footer a {
     cursor: pointer;
   }

@@ -2,7 +2,7 @@ const pokemones = [{
   id: 1,
   num: '001',
   name: 'Bulbasaur',
-  img: 'http://www.serebii.net/pokemongo/pokemon/001.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png',
   type: [
     'Grass',
     'Poison',
@@ -33,7 +33,7 @@ const pokemones = [{
   id: 2,
   num: '002',
   name: 'Ivysaur',
-  img: 'http://www.serebii.net/pokemongo/pokemon/002.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//002.png',
   type: [
     'Grass',
     'Poison',
@@ -68,7 +68,7 @@ const pokemones = [{
   id: 3,
   num: '003',
   name: 'Venusaur',
-  img: 'http://www.serebii.net/pokemongo/pokemon/003.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//003.png',
   type: [
     'Grass',
     'Poison',
@@ -98,7 +98,7 @@ const pokemones = [{
   id: 4,
   num: '004',
   name: 'Charmander',
-  img: 'http://www.serebii.net/pokemongo/pokemon/004.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//004.png',
   type: [
     'Fire',
   ],
@@ -127,7 +127,7 @@ const pokemones = [{
   id: 5,
   num: '005',
   name: 'Charmeleon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/005.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//005.png',
   type: [
     'Fire',
   ],
@@ -157,7 +157,7 @@ const pokemones = [{
   id: 6,
   num: '006',
   name: 'Charizard',
-  img: 'http://www.serebii.net/pokemongo/pokemon/006.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png',
   type: [
     'Fire',
     'Flying',
@@ -186,7 +186,7 @@ const pokemones = [{
   id: 7,
   num: '007',
   name: 'Squirtle',
-  img: 'http://www.serebii.net/pokemongo/pokemon/007.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//007.png',
   type: [
     'Water',
   ],
@@ -214,7 +214,7 @@ const pokemones = [{
   id: 8,
   num: '008',
   name: 'Wartortle',
-  img: 'http://www.serebii.net/pokemongo/pokemon/008.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//008.png',
   type: [
     'Water',
   ],
@@ -243,7 +243,7 @@ const pokemones = [{
   id: 9,
   num: '009',
   name: 'Blastoise',
-  img: 'http://www.serebii.net/pokemongo/pokemon/009.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//009.png',
   type: [
     'Water',
   ],
@@ -270,7 +270,7 @@ const pokemones = [{
   id: 10,
   num: '010',
   name: 'Caterpie',
-  img: 'http://www.serebii.net/pokemongo/pokemon/010.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//010.png',
   type: [
     'Bug',
   ],
@@ -299,7 +299,7 @@ const pokemones = [{
   id: 11,
   num: '011',
   name: 'Metapod',
-  img: 'http://www.serebii.net/pokemongo/pokemon/011.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//011.png',
   type: [
     'Bug',
   ],
@@ -332,7 +332,7 @@ const pokemones = [{
   id: 12,
   num: '012',
   name: 'Butterfree',
-  img: 'http://www.serebii.net/pokemongo/pokemon/012.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//012.png',
   type: [
     'Bug',
     'Flying',
@@ -363,7 +363,7 @@ const pokemones = [{
   id: 13,
   num: '013',
   name: 'Weedle',
-  img: 'http://www.serebii.net/pokemongo/pokemon/013.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//013.png',
   type: [
     'Bug',
     'Poison',
@@ -397,7 +397,7 @@ const pokemones = [{
   id: 14,
   num: '014',
   name: 'Kakuna',
-  img: 'http://www.serebii.net/pokemongo/pokemon/014.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//014.png',
   type: [
     'Bug',
     'Poison',
@@ -432,7 +432,7 @@ const pokemones = [{
   id: 15,
   num: '015',
   name: 'Beedrill',
-  img: 'http://www.serebii.net/pokemongo/pokemon/015.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//015.png',
   type: [
     'Bug',
     'Poison',
@@ -462,7 +462,7 @@ const pokemones = [{
   id: 16,
   num: '016',
   name: 'Pidgey',
-  img: 'http://www.serebii.net/pokemongo/pokemon/016.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//016.png',
   type: [
     'Normal',
     'Flying',
@@ -494,7 +494,7 @@ const pokemones = [{
   id: 17,
   num: '017',
   name: 'Pidgeotto',
-  img: 'http://www.serebii.net/pokemongo/pokemon/017.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//017.png',
   type: [
     'Normal',
     'Flying',
@@ -524,7 +524,7 @@ const pokemones = [{
   id: 18,
   num: '018',
   name: 'Pidgeot',
-  img: 'http://www.serebii.net/pokemongo/pokemon/018.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//018.png',
   type: [
     'Normal',
     'Flying',
@@ -552,7 +552,7 @@ const pokemones = [{
   id: 19,
   num: '019',
   name: 'Rattata',
-  img: 'http://www.serebii.net/pokemongo/pokemon/019.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//019.png',
   type: [
     'Normal',
   ],
@@ -579,7 +579,7 @@ const pokemones = [{
   id: 20,
   num: '020',
   name: 'Raticate',
-  img: 'http://www.serebii.net/pokemongo/pokemon/020.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//020.png',
   type: [
     'Normal',
   ],
@@ -602,7 +602,7 @@ const pokemones = [{
   id: 21,
   num: '021',
   name: 'Spearow',
-  img: 'http://www.serebii.net/pokemongo/pokemon/021.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//021.png',
   type: [
     'Normal',
     'Flying',
@@ -631,7 +631,7 @@ const pokemones = [{
   id: 22,
   num: '022',
   name: 'Fearow',
-  img: 'http://www.serebii.net/pokemongo/pokemon/022.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//022.png',
   type: [
     'Normal',
     'Flying',
@@ -656,7 +656,7 @@ const pokemones = [{
   id: 23,
   num: '023',
   name: 'Ekans',
-  img: 'http://www.serebii.net/pokemongo/pokemon/023.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//023.png',
   type: [
     'Poison',
   ],
@@ -684,7 +684,7 @@ const pokemones = [{
   id: 24,
   num: '024',
   name: 'Arbok',
-  img: 'http://www.serebii.net/pokemongo/pokemon/024.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//024.png',
   type: [
     'Poison',
   ],
@@ -708,7 +708,7 @@ const pokemones = [{
   id: 25,
   num: '025',
   name: 'Pikachu',
-  img: 'http://www.serebii.net/pokemongo/pokemon/025.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//025.png',
   type: [
     'Electric',
   ],
@@ -732,7 +732,7 @@ const pokemones = [{
   id: 26,
   num: '026',
   name: 'Raichu',
-  img: 'http://www.serebii.net/pokemongo/pokemon/026.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//026.png',
   type: [
     'Electric',
   ],
@@ -755,7 +755,7 @@ const pokemones = [{
   id: 27,
   num: '027',
   name: 'Sandshrew',
-  img: 'http://www.serebii.net/pokemongo/pokemon/027.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//027.png',
   type: [
     'Ground',
   ],
@@ -781,7 +781,7 @@ const pokemones = [{
   id: 28,
   num: '028',
   name: 'Sandslash',
-  img: 'http://www.serebii.net/pokemongo/pokemon/028.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//028.png',
   type: [
     'Ground',
   ],
@@ -806,7 +806,7 @@ const pokemones = [{
   id: 29,
   num: '029',
   name: 'Nidoran ♀ (Female)',
-  img: 'http://www.serebii.net/pokemongo/pokemon/029.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//029.png',
   type: [
     'Poison',
   ],
@@ -837,7 +837,7 @@ const pokemones = [{
   id: 30,
   num: '030',
   name: 'Nidorina',
-  img: 'http://www.serebii.net/pokemongo/pokemon/030.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//030.png',
   type: [
     'Poison',
   ],
@@ -869,7 +869,7 @@ const pokemones = [{
   id: 31,
   num: '031',
   name: 'Nidoqueen',
-  img: 'http://www.serebii.net/pokemongo/pokemon/031.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//031.png',
   type: [
     'Poison',
     'Ground',
@@ -899,7 +899,7 @@ const pokemones = [{
   id: 32,
   num: '032',
   name: 'Nidoran ♂ (Male)',
-  img: 'http://www.serebii.net/pokemongo/pokemon/032.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//032.png',
   type: [
     'Poison',
   ],
@@ -930,7 +930,7 @@ const pokemones = [{
   id: 33,
   num: '033',
   name: 'Nidorino',
-  img: 'http://www.serebii.net/pokemongo/pokemon/033.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//033.png',
   type: [
     'Poison',
   ],
@@ -959,7 +959,7 @@ const pokemones = [{
   id: 34,
   num: '034',
   name: 'Nidoking',
-  img: 'http://www.serebii.net/pokemongo/pokemon/034.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//034.png',
   type: [
     'Poison',
     'Ground',
@@ -989,7 +989,7 @@ const pokemones = [{
   id: 35,
   num: '035',
   name: 'Clefairy',
-  img: 'http://www.serebii.net/pokemongo/pokemon/035.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//035.png',
   type: [
     'Normal',
   ],
@@ -1016,7 +1016,7 @@ const pokemones = [{
   id: 36,
   num: '036',
   name: 'Clefable',
-  img: 'http://www.serebii.net/pokemongo/pokemon/036.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//036.png',
   type: [
     'Normal',
   ],
@@ -1039,7 +1039,7 @@ const pokemones = [{
   id: 37,
   num: '037',
   name: 'Vulpix',
-  img: 'http://www.serebii.net/pokemongo/pokemon/037.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//037.png',
   type: [
     'Fire',
   ],
@@ -1068,7 +1068,7 @@ const pokemones = [{
   id: 38,
   num: '038',
   name: 'Ninetales',
-  img: 'http://www.serebii.net/pokemongo/pokemon/038.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//038.png',
   type: [
     'Fire',
   ],
@@ -1093,7 +1093,7 @@ const pokemones = [{
   id: 39,
   num: '039',
   name: 'Jigglypuff',
-  img: 'http://www.serebii.net/pokemongo/pokemon/039.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//039.png',
   type: [
     'Normal',
   ],
@@ -1117,7 +1117,7 @@ const pokemones = [{
   id: 40,
   num: '040',
   name: 'Wigglytuff',
-  img: 'http://www.serebii.net/pokemongo/pokemon/040.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//040.png',
   type: [
     'Normal',
   ],
@@ -1140,7 +1140,7 @@ const pokemones = [{
   id: 41,
   num: '041',
   name: 'Zubat',
-  img: 'http://www.serebii.net/pokemongo/pokemon/041.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//041.png',
   type: [
     'Poison',
     'Flying',
@@ -1171,7 +1171,7 @@ const pokemones = [{
   id: 42,
   num: '042',
   name: 'Golbat',
-  img: 'http://www.serebii.net/pokemongo/pokemon/042.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//042.png',
   type: [
     'Poison',
     'Flying',
@@ -1198,7 +1198,7 @@ const pokemones = [{
   id: 43,
   num: '043',
   name: 'Oddish',
-  img: 'http://www.serebii.net/pokemongo/pokemon/043.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//043.png',
   type: [
     'Grass',
     'Poison',
@@ -1229,7 +1229,7 @@ const pokemones = [{
   id: 44,
   num: '044',
   name: 'Gloom',
-  img: 'http://www.serebii.net/pokemongo/pokemon/044.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//044.png',
   type: [
     'Grass',
     'Poison',
@@ -1261,7 +1261,7 @@ const pokemones = [{
   id: 45,
   num: '045',
   name: 'Vileplume',
-  img: 'http://www.serebii.net/pokemongo/pokemon/045.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//045.png',
   type: [
     'Grass',
     'Poison',
@@ -1291,7 +1291,7 @@ const pokemones = [{
   id: 46,
   num: '046',
   name: 'Paras',
-  img: 'http://www.serebii.net/pokemongo/pokemon/046.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//046.png',
   type: [
     'Bug',
     'Grass',
@@ -1321,7 +1321,7 @@ const pokemones = [{
   id: 47,
   num: '047',
   name: 'Parasect',
-  img: 'http://www.serebii.net/pokemongo/pokemon/047.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//047.png',
   type: [
     'Bug',
     'Grass',
@@ -1350,7 +1350,7 @@ const pokemones = [{
   id: 48,
   num: '048',
   name: 'Venonat',
-  img: 'http://www.serebii.net/pokemongo/pokemon/048.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//048.png',
   type: [
     'Bug',
     'Poison',
@@ -1381,7 +1381,7 @@ const pokemones = [{
   id: 49,
   num: '049',
   name: 'Venomoth',
-  img: 'http://www.serebii.net/pokemongo/pokemon/049.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//049.png',
   type: [
     'Bug',
     'Poison',
@@ -1408,7 +1408,7 @@ const pokemones = [{
   id: 50,
   num: '050',
   name: 'Diglett',
-  img: 'http://www.serebii.net/pokemongo/pokemon/050.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//050.png',
   type: [
     'Ground',
   ],
@@ -1434,7 +1434,7 @@ const pokemones = [{
   id: 51,
   num: '051',
   name: 'Dugtrio',
-  img: 'http://www.serebii.net/pokemongo/pokemon/051.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//051.png',
   type: [
     'Ground',
   ],
@@ -1459,7 +1459,7 @@ const pokemones = [{
   id: 52,
   num: '052',
   name: 'Meowth',
-  img: 'http://www.serebii.net/pokemongo/pokemon/052.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//052.png',
   type: [
     'Normal',
   ],
@@ -1483,7 +1483,7 @@ const pokemones = [{
   id: 53,
   num: '053',
   name: 'Persian',
-  img: 'http://www.serebii.net/pokemongo/pokemon/053.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//053.png',
   type: [
     'Normal',
   ],
@@ -1506,7 +1506,7 @@ const pokemones = [{
   id: 54,
   num: '054',
   name: 'Psyduck',
-  img: 'http://www.serebii.net/pokemongo/pokemon/054.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//054.png',
   type: [
     'Water',
   ],
@@ -1531,7 +1531,7 @@ const pokemones = [{
   id: 55,
   num: '055',
   name: 'Golduck',
-  img: 'http://www.serebii.net/pokemongo/pokemon/055.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//055.png',
   type: [
     'Water',
   ],
@@ -1555,7 +1555,7 @@ const pokemones = [{
   id: 56,
   num: '056',
   name: 'Mankey',
-  img: 'http://www.serebii.net/pokemongo/pokemon/056.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//056.png',
   type: [
     'Fighting',
   ],
@@ -1584,7 +1584,7 @@ const pokemones = [{
   id: 57,
   num: '057',
   name: 'Primeape',
-  img: 'http://www.serebii.net/pokemongo/pokemon/057.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//057.png',
   type: [
     'Fighting',
   ],
@@ -1609,7 +1609,7 @@ const pokemones = [{
   id: 58,
   num: '058',
   name: 'Growlithe',
-  img: 'http://www.serebii.net/pokemongo/pokemon/058.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//058.png',
   type: [
     'Fire',
   ],
@@ -1638,7 +1638,7 @@ const pokemones = [{
   id: 59,
   num: '059',
   name: 'Arcanine',
-  img: 'http://www.serebii.net/pokemongo/pokemon/059.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//059.png',
   type: [
     'Fire',
   ],
@@ -1663,7 +1663,7 @@ const pokemones = [{
   id: 60,
   num: '060',
   name: 'Poliwag',
-  img: 'http://www.serebii.net/pokemongo/pokemon/060.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//060.png',
   type: [
     'Water',
   ],
@@ -1694,7 +1694,7 @@ const pokemones = [{
   id: 61,
   num: '061',
   name: 'Poliwhirl',
-  img: 'http://www.serebii.net/pokemongo/pokemon/061.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//061.png',
   type: [
     'Water',
   ],
@@ -1723,7 +1723,7 @@ const pokemones = [{
   id: 62,
   num: '062',
   name: 'Poliwrath',
-  img: 'http://www.serebii.net/pokemongo/pokemon/062.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//062.png',
   type: [
     'Water',
     'Fighting',
@@ -1754,7 +1754,7 @@ const pokemones = [{
   id: 63,
   num: '063',
   name: 'Abra',
-  img: 'http://www.serebii.net/pokemongo/pokemon/063.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//063.png',
   type: [
     'Psychic',
   ],
@@ -1786,7 +1786,7 @@ const pokemones = [{
   id: 64,
   num: '064',
   name: 'Kadabra',
-  img: 'http://www.serebii.net/pokemongo/pokemon/064.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//064.png',
   type: [
     'Psychic',
   ],
@@ -1816,7 +1816,7 @@ const pokemones = [{
   id: 65,
   num: '065',
   name: 'Alakazam',
-  img: 'http://www.serebii.net/pokemongo/pokemon/065.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//065.png',
   type: [
     'Psychic',
   ],
@@ -1844,7 +1844,7 @@ const pokemones = [{
   id: 66,
   num: '066',
   name: 'Machop',
-  img: 'http://www.serebii.net/pokemongo/pokemon/066.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//066.png',
   type: [
     'Fighting',
   ],
@@ -1876,7 +1876,7 @@ const pokemones = [{
   id: 67,
   num: '067',
   name: 'Machoke',
-  img: 'http://www.serebii.net/pokemongo/pokemon/067.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//067.png',
   type: [
     'Fighting',
   ],
@@ -1906,7 +1906,7 @@ const pokemones = [{
   id: 68,
   num: '068',
   name: 'Machamp',
-  img: 'http://www.serebii.net/pokemongo/pokemon/068.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//068.png',
   type: [
     'Fighting',
   ],
@@ -1934,7 +1934,7 @@ const pokemones = [{
   id: 69,
   num: '069',
   name: 'Bellsprout',
-  img: 'http://www.serebii.net/pokemongo/pokemon/069.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//069.png',
   type: [
     'Grass',
     'Poison',
@@ -1965,7 +1965,7 @@ const pokemones = [{
   id: 70,
   num: '070',
   name: 'Weepinbell',
-  img: 'http://www.serebii.net/pokemongo/pokemon/070.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//070.png',
   type: [
     'Grass',
     'Poison',
@@ -1997,7 +1997,7 @@ const pokemones = [{
   id: 71,
   num: '071',
   name: 'Victreebel',
-  img: 'http://www.serebii.net/pokemongo/pokemon/071.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//071.png',
   type: [
     'Grass',
     'Poison',
@@ -2027,7 +2027,7 @@ const pokemones = [{
   id: 72,
   num: '072',
   name: 'Tentacool',
-  img: 'http://www.serebii.net/pokemongo/pokemon/072.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//072.png',
   type: [
     'Water',
     'Poison',
@@ -2054,7 +2054,7 @@ const pokemones = [{
   id: 73,
   num: '073',
   name: 'Tentacruel',
-  img: 'http://www.serebii.net/pokemongo/pokemon/073.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//073.png',
   type: [
     'Water',
     'Poison',
@@ -2080,7 +2080,7 @@ const pokemones = [{
   id: 74,
   num: '074',
   name: 'Geodude',
-  img: 'http://www.serebii.net/pokemongo/pokemon/074.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//074.png',
   type: [
     'Rock',
     'Ground',
@@ -2116,7 +2116,7 @@ const pokemones = [{
   id: 75,
   num: '075',
   name: 'Graveler',
-  img: 'http://www.serebii.net/pokemongo/pokemon/075.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//075.png',
   type: [
     'Rock',
     'Ground',
@@ -2153,7 +2153,7 @@ const pokemones = [{
   id: 76,
   num: '076',
   name: 'Golem',
-  img: 'http://www.serebii.net/pokemongo/pokemon/076.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//076.png',
   type: [
     'Rock',
     'Ground',
@@ -2185,7 +2185,7 @@ const pokemones = [{
   id: 77,
   num: '077',
   name: 'Ponyta',
-  img: 'http://www.serebii.net/pokemongo/pokemon/077.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//077.png',
   type: [
     'Fire',
   ],
@@ -2214,7 +2214,7 @@ const pokemones = [{
   id: 78,
   num: '078',
   name: 'Rapidash',
-  img: 'http://www.serebii.net/pokemongo/pokemon/078.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//078.png',
   type: [
     'Fire',
   ],
@@ -2239,7 +2239,7 @@ const pokemones = [{
   id: 79,
   num: '079',
   name: 'Slowpoke',
-  img: 'http://www.serebii.net/pokemongo/pokemon/079.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//079.png',
   type: [
     'Water',
     'Psychic',
@@ -2268,7 +2268,7 @@ const pokemones = [{
   id: 80,
   num: '080',
   name: 'Slowbro',
-  img: 'http://www.serebii.net/pokemongo/pokemon/080.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//080.png',
   type: [
     'Water',
     'Psychic',
@@ -2296,7 +2296,7 @@ const pokemones = [{
   id: 81,
   num: '081',
   name: 'Magnemite',
-  img: 'http://www.serebii.net/pokemongo/pokemon/081.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//081.png',
   type: [
     'Electric',
   ],
@@ -2325,7 +2325,7 @@ const pokemones = [{
   id: 82,
   num: '082',
   name: 'Magneton',
-  img: 'http://www.serebii.net/pokemongo/pokemon/082.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//082.png',
   type: [
     'Electric',
   ],
@@ -2350,7 +2350,7 @@ const pokemones = [{
   id: 83,
   num: '083',
   name: "Farfetch'd",
-  img: 'http://www.serebii.net/pokemongo/pokemon/083.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//083.png',
   type: [
     'Normal',
     'Flying',
@@ -2371,7 +2371,7 @@ const pokemones = [{
   id: 84,
   num: '084',
   name: 'Doduo',
-  img: 'http://www.serebii.net/pokemongo/pokemon/084.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//084.png',
   type: [
     'Normal',
     'Flying',
@@ -2400,7 +2400,7 @@ const pokemones = [{
   id: 85,
   num: '085',
   name: 'Dodrio',
-  img: 'http://www.serebii.net/pokemongo/pokemon/085.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//085.png',
   type: [
     'Normal',
     'Flying',
@@ -2425,7 +2425,7 @@ const pokemones = [{
   id: 86,
   num: '086',
   name: 'Seel',
-  img: 'http://www.serebii.net/pokemongo/pokemon/086.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//086.png',
   type: [
     'Water',
   ],
@@ -2453,7 +2453,7 @@ const pokemones = [{
   id: 87,
   num: '087',
   name: 'Dewgong',
-  img: 'http://www.serebii.net/pokemongo/pokemon/087.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//087.png',
   type: [
     'Water',
     'Ice',
@@ -2480,7 +2480,7 @@ const pokemones = [{
   id: 88,
   num: '088',
   name: 'Grimer',
-  img: 'http://www.serebii.net/pokemongo/pokemon/088.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//088.png',
   type: [
     'Poison',
   ],
@@ -2505,7 +2505,7 @@ const pokemones = [{
   id: 89,
   num: '089',
   name: 'Muk',
-  img: 'http://www.serebii.net/pokemongo/pokemon/089.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//089.png',
   type: [
     'Poison',
   ],
@@ -2529,7 +2529,7 @@ const pokemones = [{
   id: 90,
   num: '090',
   name: 'Shellder',
-  img: 'http://www.serebii.net/pokemongo/pokemon/090.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//090.png',
   type: [
     'Water',
   ],
@@ -2554,7 +2554,7 @@ const pokemones = [{
   id: 91,
   num: '091',
   name: 'Cloyster',
-  img: 'http://www.serebii.net/pokemongo/pokemon/091.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//091.png',
   type: [
     'Water',
     'Ice',
@@ -2581,7 +2581,7 @@ const pokemones = [{
   id: 92,
   num: '092',
   name: 'Gastly',
-  img: 'http://www.serebii.net/pokemongo/pokemon/092.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//092.png',
   type: [
     'Ghost',
     'Poison',
@@ -2612,7 +2612,7 @@ const pokemones = [{
   id: 93,
   num: '093',
   name: 'Haunter',
-  img: 'http://www.serebii.net/pokemongo/pokemon/093.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//093.png',
   type: [
     'Ghost',
     'Poison',
@@ -2647,7 +2647,7 @@ const pokemones = [{
   id: 94,
   num: '094',
   name: 'Gengar',
-  img: 'http://www.serebii.net/pokemongo/pokemon/094.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//094.png',
   type: [
     'Ghost',
     'Poison',
@@ -2677,7 +2677,7 @@ const pokemones = [{
   id: 95,
   num: '095',
   name: 'Onix',
-  img: 'http://www.serebii.net/pokemongo/pokemon/095.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//095.png',
   type: [
     'Rock',
     'Ground',
@@ -2702,7 +2702,7 @@ const pokemones = [{
   id: 96,
   num: '096',
   name: 'Drowzee',
-  img: 'http://www.serebii.net/pokemongo/pokemon/096.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//096.png',
   type: [
     'Psychic',
   ],
@@ -2731,7 +2731,7 @@ const pokemones = [{
   id: 97,
   num: '097',
   name: 'Hypno',
-  img: 'http://www.serebii.net/pokemongo/pokemon/097.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//097.png',
   type: [
     'Psychic',
   ],
@@ -2756,7 +2756,7 @@ const pokemones = [{
   id: 98,
   num: '098',
   name: 'Krabby',
-  img: 'http://www.serebii.net/pokemongo/pokemon/098.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//098.png',
   type: [
     'Water',
   ],
@@ -2784,7 +2784,7 @@ const pokemones = [{
   id: 99,
   num: '099',
   name: 'Kingler',
-  img: 'http://www.serebii.net/pokemongo/pokemon/099.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//099.png',
   type: [
     'Water',
   ],
@@ -2808,7 +2808,7 @@ const pokemones = [{
   id: 100,
   num: '100',
   name: 'Voltorb',
-  img: 'http://www.serebii.net/pokemongo/pokemon/100.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//100.png',
   type: [
     'Electric',
   ],
@@ -2835,7 +2835,7 @@ const pokemones = [{
   id: 101,
   num: '101',
   name: 'Electrode',
-  img: 'http://www.serebii.net/pokemongo/pokemon/101.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//101.png',
   type: [
     'Electric',
   ],
@@ -2858,7 +2858,7 @@ const pokemones = [{
   id: 102,
   num: '102',
   name: 'Exeggcute',
-  img: 'http://www.serebii.net/pokemongo/pokemon/102.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//102.png',
   type: [
     'Grass',
     'Psychic',
@@ -2892,7 +2892,7 @@ const pokemones = [{
   id: 103,
   num: '103',
   name: 'Exeggutor',
-  img: 'http://www.serebii.net/pokemongo/pokemon/103.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//103.png',
   type: [
     'Grass',
     'Psychic',
@@ -2922,7 +2922,7 @@ const pokemones = [{
   id: 104,
   num: '104',
   name: 'Cubone',
-  img: 'http://www.serebii.net/pokemongo/pokemon/104.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//104.png',
   type: [
     'Ground',
   ],
@@ -2948,7 +2948,7 @@ const pokemones = [{
   id: 105,
   num: '105',
   name: 'Marowak',
-  img: 'http://www.serebii.net/pokemongo/pokemon/105.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//105.png',
   type: [
     'Ground',
   ],
@@ -2973,7 +2973,7 @@ const pokemones = [{
   id: 106,
   num: '106',
   name: 'Hitmonlee',
-  img: 'http://www.serebii.net/pokemongo/pokemon/106.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//106.png',
   type: [
     'Fighting',
   ],
@@ -2994,7 +2994,7 @@ const pokemones = [{
   id: 107,
   num: '107',
   name: 'Hitmonchan',
-  img: 'http://www.serebii.net/pokemongo/pokemon/107.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//107.png',
   type: [
     'Fighting',
   ],
@@ -3015,7 +3015,7 @@ const pokemones = [{
   id: 108,
   num: '108',
   name: 'Lickitung',
-  img: 'http://www.serebii.net/pokemongo/pokemon/108.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//108.png',
   type: [
     'Normal',
   ],
@@ -3034,7 +3034,7 @@ const pokemones = [{
   id: 109,
   num: '109',
   name: 'Koffing',
-  img: 'http://www.serebii.net/pokemongo/pokemon/109.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//109.png',
   type: [
     'Poison',
   ],
@@ -3059,7 +3059,7 @@ const pokemones = [{
   id: 110,
   num: '110',
   name: 'Weezing',
-  img: 'http://www.serebii.net/pokemongo/pokemon/110.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//110.png',
   type: [
     'Poison',
   ],
@@ -3083,7 +3083,7 @@ const pokemones = [{
   id: 111,
   num: '111',
   name: 'Rhyhorn',
-  img: 'http://www.serebii.net/pokemongo/pokemon/111.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//111.png',
   type: [
     'Ground',
     'Rock',
@@ -3113,7 +3113,7 @@ const pokemones = [{
   id: 112,
   num: '112',
   name: 'Rhydon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/112.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//112.png',
   type: [
     'Ground',
     'Rock',
@@ -3142,7 +3142,7 @@ const pokemones = [{
   id: 113,
   num: '113',
   name: 'Chansey',
-  img: 'http://www.serebii.net/pokemongo/pokemon/113.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//113.png',
   type: [
     'Normal',
   ],
@@ -3161,7 +3161,7 @@ const pokemones = [{
   id: 114,
   num: '114',
   name: 'Tangela',
-  img: 'http://www.serebii.net/pokemongo/pokemon/114.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//114.png',
   type: [
     'Grass',
   ],
@@ -3184,7 +3184,7 @@ const pokemones = [{
   id: 115,
   num: '115',
   name: 'Kangaskhan',
-  img: 'http://www.serebii.net/pokemongo/pokemon/115.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//115.png',
   type: [
     'Normal',
   ],
@@ -3203,7 +3203,7 @@ const pokemones = [{
   id: 116,
   num: '116',
   name: 'Horsea',
-  img: 'http://www.serebii.net/pokemongo/pokemon/116.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//116.png',
   type: [
     'Water',
   ],
@@ -3228,7 +3228,7 @@ const pokemones = [{
   id: 117,
   num: '117',
   name: 'Seadra',
-  img: 'http://www.serebii.net/pokemongo/pokemon/117.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//117.png',
   type: [
     'Water',
   ],
@@ -3252,7 +3252,7 @@ const pokemones = [{
   id: 118,
   num: '118',
   name: 'Goldeen',
-  img: 'http://www.serebii.net/pokemongo/pokemon/118.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//118.png',
   type: [
     'Water',
   ],
@@ -3280,7 +3280,7 @@ const pokemones = [{
   id: 119,
   num: '119',
   name: 'Seaking',
-  img: 'http://www.serebii.net/pokemongo/pokemon/119.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//119.png',
   type: [
     'Water',
   ],
@@ -3304,7 +3304,7 @@ const pokemones = [{
   id: 120,
   num: '120',
   name: 'Staryu',
-  img: 'http://www.serebii.net/pokemongo/pokemon/120.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//120.png',
   type: [
     'Water',
   ],
@@ -3332,7 +3332,7 @@ const pokemones = [{
   id: 121,
   num: '121',
   name: 'Starmie',
-  img: 'http://www.serebii.net/pokemongo/pokemon/121.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//121.png',
   type: [
     'Water',
     'Psychic',
@@ -3360,7 +3360,7 @@ const pokemones = [{
   id: 122,
   num: '122',
   name: 'Mr. Mime',
-  img: 'http://www.serebii.net/pokemongo/pokemon/122.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//122.png',
   type: [
     'Psychic',
   ],
@@ -3381,7 +3381,7 @@ const pokemones = [{
   id: 123,
   num: '123',
   name: 'Scyther',
-  img: 'http://www.serebii.net/pokemongo/pokemon/123.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//123.png',
   type: [
     'Bug',
     'Flying',
@@ -3405,7 +3405,7 @@ const pokemones = [{
   id: 124,
   num: '124',
   name: 'Jynx',
-  img: 'http://www.serebii.net/pokemongo/pokemon/124.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//124.png',
   type: [
     'Ice',
     'Psychic',
@@ -3430,7 +3430,7 @@ const pokemones = [{
   id: 125,
   num: '125',
   name: 'Electabuzz',
-  img: 'http://www.serebii.net/pokemongo/pokemon/125.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//125.png',
   type: [
     'Electric',
   ],
@@ -3449,7 +3449,7 @@ const pokemones = [{
   id: 126,
   num: '126',
   name: 'Magmar',
-  img: 'http://www.serebii.net/pokemongo/pokemon/126.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//126.png',
   type: [
     'Fire',
   ],
@@ -3470,7 +3470,7 @@ const pokemones = [{
   id: 127,
   num: '127',
   name: 'Pinsir',
-  img: 'http://www.serebii.net/pokemongo/pokemon/127.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//127.png',
   type: [
     'Bug',
   ],
@@ -3491,7 +3491,7 @@ const pokemones = [{
   id: 128,
   num: '128',
   name: 'Tauros',
-  img: 'http://www.serebii.net/pokemongo/pokemon/128.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//128.png',
   type: [
     'Normal',
   ],
@@ -3510,7 +3510,7 @@ const pokemones = [{
   id: 129,
   num: '129',
   name: 'Magikarp',
-  img: 'http://www.serebii.net/pokemongo/pokemon/129.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//129.png',
   type: [
     'Water',
   ],
@@ -3538,7 +3538,7 @@ const pokemones = [{
   id: 130,
   num: '130',
   name: 'Gyarados',
-  img: 'http://www.serebii.net/pokemongo/pokemon/130.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//130.png',
   type: [
     'Water',
     'Flying',
@@ -3563,7 +3563,7 @@ const pokemones = [{
   id: 131,
   num: '131',
   name: 'Lapras',
-  img: 'http://www.serebii.net/pokemongo/pokemon/131.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//131.png',
   type: [
     'Water',
     'Ice',
@@ -3586,7 +3586,7 @@ const pokemones = [{
   id: 132,
   num: '132',
   name: 'Ditto',
-  img: 'http://www.serebii.net/pokemongo/pokemon/132.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//132.png',
   type: [
     'Normal',
   ],
@@ -3605,7 +3605,7 @@ const pokemones = [{
   id: 133,
   num: '133',
   name: 'Eevee',
-  img: 'http://www.serebii.net/pokemongo/pokemon/133.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//133.png',
   type: [
     'Normal',
   ],
@@ -3638,7 +3638,7 @@ const pokemones = [{
   id: 134,
   num: '134',
   name: 'Vaporeon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/134.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//134.png',
   type: [
     'Water',
   ],
@@ -3662,7 +3662,7 @@ const pokemones = [{
   id: 135,
   num: '135',
   name: 'Jolteon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/135.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//135.png',
   type: [
     'Electric',
   ],
@@ -3685,7 +3685,7 @@ const pokemones = [{
   id: 136,
   num: '136',
   name: 'Flareon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/136.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//136.png',
   type: [
     'Fire',
   ],
@@ -3710,7 +3710,7 @@ const pokemones = [{
   id: 137,
   num: '137',
   name: 'Porygon',
-  img: 'http://www.serebii.net/pokemongo/pokemon/137.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//137.png',
   type: [
     'Normal',
   ],
@@ -3729,7 +3729,7 @@ const pokemones = [{
   id: 138,
   num: '138',
   name: 'Omanyte',
-  img: 'http://www.serebii.net/pokemongo/pokemon/138.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//138.png',
   type: [
     'Rock',
     'Water',
@@ -3757,7 +3757,7 @@ const pokemones = [{
   id: 139,
   num: '139',
   name: 'Omastar',
-  img: 'http://www.serebii.net/pokemongo/pokemon/139.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//139.png',
   type: [
     'Rock',
     'Water',
@@ -3784,7 +3784,7 @@ const pokemones = [{
   id: 140,
   num: '140',
   name: 'Kabuto',
-  img: 'http://www.serebii.net/pokemongo/pokemon/140.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//140.png',
   type: [
     'Rock',
     'Water',
@@ -3815,7 +3815,7 @@ const pokemones = [{
   id: 141,
   num: '141',
   name: 'Kabutops',
-  img: 'http://www.serebii.net/pokemongo/pokemon/141.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//141.png',
   type: [
     'Rock',
     'Water',
@@ -3842,7 +3842,7 @@ const pokemones = [{
   id: 142,
   num: '142',
   name: 'Aerodactyl',
-  img: 'http://www.serebii.net/pokemongo/pokemon/142.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//142.png',
   type: [
     'Rock',
     'Flying',
@@ -3866,7 +3866,7 @@ const pokemones = [{
   id: 143,
   num: '143',
   name: 'Snorlax',
-  img: 'http://www.serebii.net/pokemongo/pokemon/143.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//143.png',
   type: [
     'Normal',
   ],
@@ -3885,7 +3885,7 @@ const pokemones = [{
   id: 144,
   num: '144',
   name: 'Articuno',
-  img: 'http://www.serebii.net/pokemongo/pokemon/144.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//144.png',
   type: [
     'Ice',
     'Flying',
@@ -3908,7 +3908,7 @@ const pokemones = [{
   id: 145,
   num: '145',
   name: 'Zapdos',
-  img: 'http://www.serebii.net/pokemongo/pokemon/145.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//145.png',
   type: [
     'Electric',
     'Flying',
@@ -3929,7 +3929,7 @@ const pokemones = [{
   id: 146,
   num: '146',
   name: 'Moltres',
-  img: 'http://www.serebii.net/pokemongo/pokemon/146.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//146.png',
   type: [
     'Fire',
     'Flying',
@@ -3951,7 +3951,7 @@ const pokemones = [{
   id: 147,
   num: '147',
   name: 'Dratini',
-  img: 'http://www.serebii.net/pokemongo/pokemon/147.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//147.png',
   type: [
     'Dragon',
   ],
@@ -3983,7 +3983,7 @@ const pokemones = [{
   id: 148,
   num: '148',
   name: 'Dragonair',
-  img: 'http://www.serebii.net/pokemongo/pokemon/148.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//148.png',
   type: [
     'Dragon',
   ],
@@ -4013,7 +4013,7 @@ const pokemones = [{
   id: 149,
   num: '149',
   name: 'Dragonite',
-  img: 'http://www.serebii.net/pokemongo/pokemon/149.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//149.png',
   type: [
     'Dragon',
     'Flying',
@@ -4043,7 +4043,7 @@ const pokemones = [{
   id: 150,
   num: '150',
   name: 'Mewtwo',
-  img: 'http://www.serebii.net/pokemongo/pokemon/150.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//150.png',
   type: [
     'Psychic',
   ],
@@ -4064,7 +4064,7 @@ const pokemones = [{
   id: 151,
   num: '151',
   name: 'Mew',
-  img: 'http://www.serebii.net/pokemongo/pokemon/151.png',
+  img: 'http://assets.pokemon.com/assets/cms2/img/pokedex/full//151.png',
   type: [
     'Psychic',
   ],
