@@ -1,9 +1,9 @@
 // función de búsqueda por
 
-export const filtrarxnombre = (data, condition) => {
+export const filtrarPorNombre = (data, condition) => {
   const newArray = [];
   for (let i = 0; i < data.length; i += 1) {
-    if (data[i].name === condition) {
+    if (data[i].name.toLowerCase().startsWith(condition.toLowerCase())) {
       newArray.push(data[i]);
     }
   }

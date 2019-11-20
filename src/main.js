@@ -1,7 +1,7 @@
 
 import pokemones from './data/pokemon/pokemon.js';
 import {
-  arrayToString, filtroPorTipo, filtroPorDebilidad, orderDataName, filtrarxnombre,
+  arrayToString, filtroPorTipo, filtroPorDebilidad, orderDataName, filtrarPorNombre,
 } from './data.js';
 
 let allCards = '';
@@ -85,15 +85,18 @@ document.getElementById('btn_principal').addEventListener('click', () => {
   displayPokemons(pokemones);
 });
 
-// displayPokemons(pokemones);
-
+// Para buscar pokemones por nombre
 document.getElementById('btn_buscar').addEventListener('click', () => {
   const filtro = document.getElementById('txtBusqueda').value;
-  // document.getElementById('all-pokemon').remove();
   allCards = ' ';
-  displayPokemons(filtrarxnombre(pokemones, filtro));
+  displayPokemons(filtrarPorNombre(pokemones, filtro));
 });
 
+document.getElementById('txtBusqueda').addEventListener('input', () => {
+  const filtro = document.getElementById('txtBusqueda').event.target.value;
+  // allCards = ' ';
+  displayPokemons(filtrarPorNombre(pokemones, filtro));
+});
 // Para mostrar home
 
 document.getElementById('home').addEventListener('click', () => {
