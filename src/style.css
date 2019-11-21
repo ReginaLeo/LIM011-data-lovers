@@ -4,6 +4,11 @@
   padding: 0;
   }
 
+.opt{
+  font-family: 'Press Start 2P';
+
+}
+
 nav{
     align-content: flex-end;
     position: static;
@@ -19,10 +24,11 @@ nav{
   font-size: 40px;
   color: #16355c;
   max-width: 600px;
-  outline: 1px solid red;
- }
+  /* outline: 1px solid red;
+*/
+}
 #image_head{
-  display: inl;
+  display: flexbox;
 
 }
 ul{
@@ -53,14 +59,14 @@ li{
   font-family: 'Press Start 2P', cursive;
   color:#fff ;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   padding: 1.6em;
    }
 
 .windows:hover{
   color: black;
   border-bottom: 5px solid black;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   }
 
@@ -88,8 +94,14 @@ li{
     li:last-of-type .windows {
       border-bottom: none;
     }
+    .portada{
+      width: 400px ;
+      height: 312px;
+    }
+    .label-portada{
+      font-size: 15px;
   }
-
+}
 .logo{
 
   padding: 2px;
@@ -100,11 +112,12 @@ li{
 }
 
 body{
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Press Start 2P',cursive;
 }
    
 .search_button{
-    font-family:'Inconsolata', monospace;  
+    font-family: 'Press Start 2P',cursive;
+    font-size: 12px;
     background: rgb(54, 226, 154);
     font-weight: bold;
     color:black;
@@ -116,7 +129,7 @@ body{
     }
 
   .btn-mostrar{
-    font-family:'Inconsolata', monospace;  
+    font-family: 'Press Start 2P',cursive;
     background: hsl(135, 96%, 48%);
     color:black;
     cursor: pointer;
@@ -161,6 +174,7 @@ body{
   padding-bottom: 0px;
   padding-top: 54px;
   text-align: center;
+  font-size: 12px;
   }
 
 .box-type{
@@ -269,7 +283,7 @@ p{
     margin: 0 auto;
     position: fixed;
     box-shadow: 0 2px 7.5px 0 rgba(51, 51, 51, 0.7);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Press Start 2P', cursive;
     outline: 4px;
     display: flex wrap;
     justify-content: space-between;
@@ -284,7 +298,7 @@ p{
     border-radius: 30px;
     border: 2px solid #fff;
     font-size: 14px;
-    /* font-family: "Fira Sans", sans-serif; */
+    font-family:'Press Start 2P', cursive;
     text-align: center;
     justify-content: right;
     outline: none;
