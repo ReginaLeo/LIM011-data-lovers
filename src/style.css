@@ -41,7 +41,7 @@ ul{
 
 li{
   
-  height: 78px;
+  height: 76px;
   display: inline-block;
   text-align: center;
   width: 375px;
@@ -50,16 +50,17 @@ li{
 .windows{
 
   text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
   color:#fff ;
   display: block;
-  font-size: 16px;
+  font-size: 10px;
   padding: 1.6em;
    }
 
 .windows:hover{
   color: black;
   border-bottom: 5px solid black;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: bold;
   }
 

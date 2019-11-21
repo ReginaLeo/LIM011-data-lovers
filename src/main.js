@@ -97,6 +97,7 @@ document.getElementById('txtBusqueda').addEventListener('input', () => {
   // allCards = ' ';
   displayPokemons(filtrarPorNombre(pokemones, filtro));
 });
+
 // Para mostrar home
 
 document.getElementById('home').addEventListener('click', () => {
