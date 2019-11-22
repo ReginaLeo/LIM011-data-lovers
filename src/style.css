@@ -4,33 +4,87 @@
   padding: 0;
   }
 
-.opt{
-  font-family: 'Press Start 2P';
-
-}
-
 nav{
     align-content: flex-end;
     position: static;
    }
 
+.buscar-caja{
+    position: absolute;
+    top:25%;
+    left:15%;
+    transform: translate(-90% -80%);
+    background:#564D65;
+    height:40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+    
+.buscar-caja:hover .buscar-txt{
+    width:200px;
+    padding:0 6px;
+    }
+    
+.buscar-caja:hover .buscar-btn{
+    background: white;
+    color: black;
+    }
+    
+.buscar-btn{
+    color:aqua;
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    }
+  
+.buscar-btn > i {
+    font-size: 30px;
+    }
+    
+.buscar-txt{
+    border:none;
+    background: none;
+    outline: none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size:16px;
+    transition: 0.4s;
+    line-height:40px;
+    width:0px;
+    font-weight:bold;
+    }
+    
+
 .portada{
-  width: 1349px;
-  height: 700px;
+  width: 1340px;
+  height: 600px;
 }
 
 .label-portada{
-  z-index: 5;
   font-size: 40px;
   color: #16355c;
-  max-width: 600px;
-  /* outline: 1px solid red;
-*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -210%);
 }
-#image_head{
-  display: flexbox;
+.image_home{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
 
-}
+
+
 ul{
  
   list-style: none;
@@ -100,8 +154,22 @@ li{
     }
     .label-portada{
       font-size: 15px;
-  }
-}
+    }
+    .btn-mostrar{
+      position: absolute;
+      top: 1%;
+      left: 1%;
+      transform: translate(5%, 5%);
+      font-family: 'Press Start 2P',cursive;
+      font-size: 2%;
+      background: hsl(135, 96%, 48%);
+      color:white;
+      cursor: pointer;
+      padding: 7px 20px 7px 20px;
+      margin-left: 0px;
+      border-radius: 40px;
+      }
+    }
 .logo{
 
   padding: 2px;
@@ -113,6 +181,7 @@ li{
 
 body{
   font-family: 'Press Start 2P',cursive;
+  overflow: auto;
 }
    
 .search_button{
@@ -120,7 +189,7 @@ body{
     font-size: 12px;
     background: rgb(54, 226, 154);
     font-weight: bold;
-    color:black;
+    color:#fff;
     cursor: pointer;
     padding: 7px 20px 7px 20px;
     margin-left: 0px;
@@ -129,14 +198,23 @@ body{
     }
 
   .btn-mostrar{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-580%, -550%);
     font-family: 'Press Start 2P',cursive;
+    font-size: 250%;
     background: hsl(135, 96%, 48%);
-    color:black;
+    color:white;
     cursor: pointer;
     padding: 7px 20px 7px 20px;
     margin-left: 0px;
     border-radius: 40px;
-    border: transparent black 1px 
+    }
+
+    .btn-mostrar:hover{
+      color:black;
+
     }
 
 .container {
@@ -165,6 +243,8 @@ body{
   transition: all .4s ease;
   opacity: 0;
   background-color: #1A181B;
+  border: 3px gray solid;
+  border-radius: 10px;
   }
 
 .card{
@@ -188,18 +268,21 @@ body{
 }
 
 .text{
-  color: white;
-  font-family: 'Inconsolata', monospace;
+  color: #000;
+  font-family: 'Alata', sans-serif;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -40%);
-  font-size: 19px;
+  font-size: 20px;
   align-content: center;
   padding-bottom: 40px;
-  ;
   }
 
+.title{
+  font-weight: bold;
+  color: #fff;
+}
 .overlayLeft {
   height: 162%;
   width: 110%;
@@ -222,7 +305,12 @@ p{
   margin: 0px;
   height: 100px;
   width: 350px;
-  z-index: inherit 3;
+  z-index: 3;
+  }
+
+.description{
+  padding: 4px;
+  margin: 3px;
 }
 
 .contact a {
@@ -285,9 +373,9 @@ p{
     box-shadow: 0 2px 7.5px 0 rgba(51, 51, 51, 0.7);
     font-family: 'Press Start 2P', cursive;
     outline: 4px;
-    display: flex wrap;
+    display: flexbox;
     justify-content: space-between;
-    text-align: center;
+    text-align: end;
     position: relative;
      }
 

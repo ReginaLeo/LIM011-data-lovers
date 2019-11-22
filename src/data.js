@@ -1,6 +1,6 @@
 // función de búsqueda por
 
-export const filtrarPorNombre = (data, condition) => {
+export const filterByName = (data, condition) => {
   const newArray = [];
   for (let i = 0; i < data.length; i += 1) {
     if (data[i].name.toLowerCase().startsWith(condition.toLowerCase())) {
@@ -10,7 +10,7 @@ export const filtrarPorNombre = (data, condition) => {
   return newArray;
 };
 
-export const filtrarxid = (data, condition) => {
+export const filterById = (data, condition) => {
   const newArray = [];
   for (let i = 0; i < data.length; i += 1) {
     if (data[i].id === parseFloat(condition)) {
@@ -31,7 +31,7 @@ export const arrayToString = (obj) => {
 
 // Función para filtrar los pokemones por tipo
 
-export const filtroPorTipo = (dataArray, typeString) => {
+export const filterByType = (dataArray, typeString) => {
   const newArray = [];
   for (let i = 0; i < dataArray.length; i += 1) {
     const arrTipos = dataArray[i].type;
@@ -44,7 +44,7 @@ export const filtroPorTipo = (dataArray, typeString) => {
 
 // Función para filtrar los pokemones por debilidad
 
-export const filtroPorDebilidad = (dataArray, typeString) => {
+export const filterByWeak = (dataArray, typeString) => {
   const newArray = [];
   for (let i = 0; i < dataArray.length; i += 1) {
     const arrTipos = dataArray[i].weaknesses;
@@ -66,7 +66,6 @@ export const orderDataName = (dataArray, OrderBy, order) => {
     } else if (order === 'descendente') {
       ordered = dataArray.sort((a, b) => a.name.localeCompare(b.name)).reverse();
     }
-    return ordered;
   }
   if (OrderBy === 'number') {
     if (order === 'ascendente') {
@@ -74,7 +73,6 @@ export const orderDataName = (dataArray, OrderBy, order) => {
     } else if (order === 'descendente') {
       ordered = dataArray.sort((a, b) => a.num.localeCompare(b.num)).reverse();
     }
-    return ordered;
   }
   return ordered;
 };
