@@ -8,8 +8,11 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <ul class="encabezado">
@@ -20,10 +23,14 @@
       <li> <a class="windows"> EVOLUCIONES </a></li>
     </ul>
     <nav class="headerFilter" id="div_combos">
-      <input type="text" id="txtBusqueda" class="filter-box">
-      <button id="btn_buscar" class="search_button">BUSCAR</button>
+      <div class="buscar-caja">
+        <input type="text" id="txtBusqueda" placeholder="Buscar pokemon..." class="buscar-txt">
+        <a class="buscar-btn" id="btn_buscar">
+          <i class="far fa-search"></i>
+        </a>
+      </div>
       <select class="filter-box" id="ingreso-type">
-        <option disabled selected value><strong>Tipos..</strong></option>
+        <option disabled selected value>Tipos..</option>
         <option value="Water">Agua</option>
         <option value="Electric">Eléctrico</option>
         <option value="Ground">Tierra</option>
@@ -40,8 +47,8 @@
         <option value="Fighting">Lucha</option>
         <option value="Ghost">Fantasma</option>
       </select>
-      <select class="filter-box select" id="ingreso-weaknesses">
-        <option disabled selected value><strong>Debilidades..</strong></option>
+      <select class="filter-box" id="ingreso-weaknesses">
+        <option disabled selected value>Debilidades..</option>
         <option value="Water">Agua</option>
         <option value="Ground">Tierra</option>
         <option value="Fire">Fuego</option>
@@ -52,14 +59,13 @@
         <option value="Dragon">Dragon</option>
         <option value="Flying">Volador</option>
         <option value="Grass">Planta</option>
-        <option value="Normal">Normal</option>
         <option value="Poison">Veneno</option>
         <option value="Psychic">Psiquico</option>
         <option value="Steel">Acero</option>
         <option value="Fighting">Lucha</option>
         <option value="Ghost">Fantasma</option>
       </select>
-      <select class="filter-box select" name="ordenados" id="tipos-orden">
+      <select class="filter-box" name="ordenados" id="tipos-orden">
         <option disabled selected value>Ordenar por...</option>
         <option value="id-ascendente"> 1-151 </option>
         <option value="id-descendente"> 151-1 </option>
@@ -69,19 +75,25 @@
     </nav>
   </header>
   <main>
-    <div id="image_head">
-      <img class ="portada" src="https://c.wallhere.com/photos/11/51/Pok_mon_Charizard_Snorlax_Ash_Ketchum_Pikachu_Blastoise_Venusaur-197315.jpg!d" alt="descripcion2"/>
+    <div id="image_head" class="image_home">
+      <img class="portada"
+        src="https://c.wallhere.com/photos/11/51/Pok_mon_Charizard_Snorlax_Ash_Ketchum_Pikachu_Blastoise_Venusaur-197315.jpg!d"
+        alt="descripcion2" />
       <h1 class="label-portada">COMIENZA LA AVENTURA PokemonGO</h1>
-      <input type="button" class="btn-mostrar" id="btn_principal" value="MOSTRAR" />
+      <input type="button" class="btn-mostrar" id="btn_principal" value="GO!" />
     </div>
     <div class="caja-pokemones" id="all-pokemon"></div>
   </main>
   <footer>
     <a class="enlace-git" href="https://github.com/ReginaLeo" target="blank_"> &reg; Copyright 2019 </a>
-    <a href="https://pokemongolive.com/es/" target="_blank" alt="Web oficial"><img class="iconos-social" src="https://i.imgur.com/dV83RKJ.png"></a>
-    <a href="https://www.facebook.com/PokemonGO/" target="_blank" alt="Facebook"><img class="iconos-social" src="https://i.imgur.com/G2TSX2U.png"></a>
-    <a href="https://twitter.com/PokemonGoApp" target="_blank" alt="Twitter"><img class="iconos-social" src="https://i.imgur.com/R5Fkm0D.png" ></a>
+    <a href="https://pokemongolive.com/es/" target="_blank" alt="Web oficial"><img class="iconos-social"
+        src="https://i.imgur.com/dV83RKJ.png"></a>
+    <a href="https://www.facebook.com/PokemonGO/" target="_blank" alt="Facebook"><img class="iconos-social"
+        src="https://i.imgur.com/G2TSX2U.png"></a>
+    <a href="https://twitter.com/PokemonGoApp" target="_blank" alt="Twitter"><img class="iconos-social"
+        src="https://i.imgur.com/R5Fkm0D.png"></a>
   </footer>
   <script type="module" src="main.js"></script>
 </body>
+
 </html>

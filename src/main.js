@@ -1,7 +1,7 @@
 
 import pokemones from './data/pokemon/pokemon.js';
 import {
-  arrayToString, filtroPorTipo, filtroPorDebilidad, orderDataName, filtrarPorNombre,
+  arrayToString, filterByType, filterByWeak, orderDataName, filterByName,
 } from './data.js';
 
 let allCards = '';
@@ -16,17 +16,17 @@ const displayPokemons = (obj) => {
     <div class='container'>
         <div class= 'card'>
           <img class='image' alt="imagen de pokemon" src="${obj[i].img}"/>
-          <h2><strong>${obj[i].name}</strong></h1>
-          <h3>${obj[i].num}</h3>
+          <h2 class='description'><strong>${obj[i].name}</strong></h1>
+          <h3 class='description'>${obj[i].num}</h3>
           <h3 class='box-type'>${arrayToString(obj)[i]}</h3>
         </div>
         <div class='overlay overlayLeft'>
            <div class='text'>
-             <p><strong>Debilidades:</strong></p>
+             <p class="title">Debilidades:</p>
              <p>${obj[i].weaknesses}</p>
-             <p><strong>Huevos:</strong></p>
+             <p class="title">Huevos:</p>
              <p>${obj[i].egg}</p>
-             <p><strong>Caramelos:</strong></p>
+             <p class="title">Caramelos:</p>
              <p>${obj[i].candy}</p>
            </div>
         </div>
@@ -46,7 +46,7 @@ const displayPokemons = (obj) => {
 const selectType = document.querySelector('#ingreso-type');
 selectType.addEventListener('change', (event) => {
   allCards = '';
-  displayPokemons(filtroPorTipo(pokemones, event.target.value));
+  displayPokemons(filterByType(pokemones, event.target.value));
 });
 
 // Mostrando los pokemones por debilidad
@@ -54,7 +54,7 @@ selectType.addEventListener('change', (event) => {
 const selectWeaknesses = document.querySelector('#ingreso-weaknesses');
 selectWeaknesses.addEventListener('change', (event) => {
   allCards = '';
-  displayPokemons(filtroPorDebilidad(pokemones, event.target.value));
+  displayPokemons(filterByWeak(pokemones, event.target.value));
 });
 
 // DOM para seleccionar los tipos de orden para los pokemones
@@ -89,14 +89,15 @@ document.getElementById('btn_principal').addEventListener('click', () => {
 document.getElementById('btn_buscar').addEventListener('click', () => {
   const filtro = document.getElementById('txtBusqueda').value;
   allCards = ' ';
-  displayPokemons(filtrarPorNombre(pokemones, filtro));
+  displayPokemons(filterByName(pokemones, filtro));
 });
 
 document.getElementById('txtBusqueda').addEventListener('input', () => {
   const filtro = document.getElementById('txtBusqueda').event.target.value;
   // allCards = ' ';
-  displayPokemons(filtrarPorNombre(pokemones, filtro));
+  displayPokemons(filterByName(pokemones, filtro));
 });
+
 // Para mostrar home
 
 document.getElementById('home').addEventListener('click', () => {
