@@ -97,6 +97,7 @@ ul{
   display: -ms-flexbox;
   display: -webkit-flex;
   justify-content: flex-start;
+  -webkit-text-stroke: 0.1px black;
   }
 
 li{
@@ -119,7 +120,6 @@ li{
 
 .windows:hover{
   color: black;
-  border-bottom: 5px solid black;
   font-size: 15px;
   font-weight: bold;
   }
