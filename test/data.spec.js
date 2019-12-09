@@ -1,6 +1,7 @@
 
 // importamos la función de Filtro por nombre
 import {
+  // eslint-disable-next-line import/named
   filterByName, filterByType, filterByWeak, filterById, orderDataName, arrayToString,
 } from '../src/data.js';
 // Testeando la función para convertir array a string
